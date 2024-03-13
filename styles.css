@@ -103,14 +103,14 @@ header{
   padding-right: 98px;
 }
 
-
-
 #simGear{
   border-bottom: 3px solid #FF910D;
   padding-bottom: 60px;
 }
 
-main{
+
+
+.center{
   background: rgb(16, 123, 194);
   padding: 3em 0 3em 0;
   flex: 5 5 150px;
@@ -122,13 +122,35 @@ main{
   justify-content: space-evenly;
   flex-wrap: wrap;
   /* background-color: red; */
-  margin-top: 15px;
+  margin-top: 30px;
   font-size: 25px;
 }
 
 #ac-logo{
-  height: 200px;
-  width: 200px;
+  height: 250px;
+  width: 270px;
+  margin-top: 15px;
+}
+
+#rfactor{
+  height: 250px;
+  width: 270px;
+  margin-top: 15px;
+}
+
+#iracing-logo{
+  height: 250px;
+  width: 270px;
+  margin-top: 15px;
+}
+
+.acc h3{
+  margin-top: 30px;
+}
+
+#acc-logo{
+  height: 400px;
+  width: 700px;
   margin-top: 15px;
 }
 
