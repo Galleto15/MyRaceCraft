@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My simracing history</title>
+    <meta name="description" content="This is a blog about my simracing history, this is a hobby that i have been doing for couple of years and have some experiences i want to share">
+    <meta name="author" content="Rodrigo Baldioceda">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <meta property="og:title" content="My race craft">
+    <meta property="og:type"  content="website">
+    <meta property="og:url"   content="https://www.MyRaceCraft">
+    <meta property="og:description" content="This is a blog about my simracing history, this is a hobby that i have been doing for couple of years and have some experiences i want to share">
+    <!-- <meta property="og:image" content="logo2.png"> -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="script" href="logic.js">
+</head>
+<body>
+     
+    <header>
+        <a class="logo">EAT. SLEEP. SIMRACE. REPEAT.</a>
+
+        <nav class="navBar">
+            <a href="index.html"> lap times</a>
+            <a href="index.html">Simracing experience</a>
+            <a href="index.html">Upgrade path</a>
+        </nav>
+    </header>
+     
+    <div class="main">
+        <aside class="left">
+            <h3>Simracing gear</h3>
+           <br>
+           <div class="simGear">
+
+           <ul id="simGear">
+            <li>Steering wheel: Logitech G29.</li>
+            <li>Pedals: Logitech G29 pedals.</li>
+            <li>Footware: Socks for better feel.</li>
+            <li>Gloves: Fox racing biking gloves.</li>
+           </ul>
+               <br>
+           <h3 id="pc-specs">PC specs</h3>
+           <br>
+           <ul>
+            <li>CPU: Ryzen 5 56ooX.</li>
+            <li>GPU: RTX 3080.</li>
+            <li>RAM: 16GB at 3200MHz.</li>
+            <li>Storage: 1TB SSD.</li>
+            <li>O/S: Windows 11 pro.</li>
+           </ul>
+        </div>
+        
+        </aside>
+
+        <main>
+            <h1>Cars that i have raced with</h1>
+
+            <!----img slider start---->
+            <div class="slider">
+                <div class="slides">
+                    <!--radio button start-->
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <!--radio button end-->
+
+                    <!--slide img start-->
+                    <div class="slide first">
+                        <img src="resources/2019-McLaren-720S-GT3-001-1080.jpg">
+                    </div>
+
+                    <div class="slide">
+                        <img src="resources/2023-Ferrari-296-GT3-001-1080.jpg">
+                    </div>
+
+                    <div class="slide">
+                        <img src="resources/2024-Aston-Martin-Vantage-GT3-001-1080.jpg">
+                    </div>
+                    <!--slide img end-->
+
+                    <!--auto navigation start-->
+                    <div class="navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                    </div>
+                    <!--auto navigation end-->
+                </div>
+                <!--manual navigation start-->
+                <div class="navigation-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                </div>
+                <!--manual navigation end-->
+
+            <!----img slider end---->
+            </div>
+            <br><br><br><br><br><br>
+            <h1>Simulators that i have used</h1>
+            <section >
+                <div class="Simulators">
+            <div id="ac-try">
+            <h3 id="ac">Assetto Corsa</h3>
+            <img src="resources/ac_logo_try11.jpg" id="ac-logo">
+            </div>
+            <h3>Assetto Corsa Competizione</h3>
+            <h3>Iracing</h3>
+            <h3>Rfactor2</h3>
+        </div>
+        </section>
+        </main>
+
+        <aside class="right">
+            <h3>Goals in simracing</h3>
+                <br>
+            <div class="SimracinGoals">
+                <ul>
+                    <li> <input type="checkbox" value="1-1">Endurance race</li>
+                    <li> <input type="checkbox" value="1-2">Master aero base cars</li>
+                    <li> <input type="checkbox" value="1-3">Be part of a simracing team</li>
+                </ul>
+    
+                <div class="checkbox-btn1">
+                    <button onclick="save()" id="checkbox-btn" class="list-btn">Save</button>
+                    <button onclick="load_()" id="checkbox-btn" class="list-btn">Load</button>
+                </div>
+            </div>
+            <script type="text/javascript" src="logic.js"></script>
+        </aside>
+    </div>
+    <footer class="footer">
+        FOOTER
+    </footer>
+
+</body>
+</html>
