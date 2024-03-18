@@ -26,3 +26,4 @@ function load_() {
         checkboxes[i].checked = localStorage.getItem(checkboxes[i].value) === 'true' ? true:false;
     }
 } 
+/***RIGHT COLUMN CHECK BOX SAVE AND LOAD LOGIC END***/

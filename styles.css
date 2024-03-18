@@ -171,6 +171,10 @@ header{
   flex-direction: column;
 }
 
+.SimracinGoals input{
+  margin-right: 5px;
+}
+
 .SimracinGoals ul li{
   display: flex;
   justify-content: flex-start;
@@ -206,8 +210,39 @@ header{
 
 footer{
   background: rgb(16, 123, 194);
-  padding: 1em 0 1em 0;
+  padding: 2em 0 0 0;
   background: transparent;
+  font-size: 15px;
+  
+}
+
+.footer-socials{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.footer-socials a{
+  color: #C0C0C0;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.footer-socials a:hover{
+  color: #C0C0C0;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+#links-title{
+  border-bottom: 3px solid #FF910D;
+  padding-left: 10px;
+  font-size: 25px;
+}
+
+#credits{
+  font-size: 13px;
 }
 
 
@@ -317,7 +352,7 @@ transition: 1s;
 }
 
 .navigation-auto div:not(:last-child){
-  margin-right: 41.5px;
+  margin-right: 41.6px;
 }
 
 #radio1:checked ~ .navigation-auto .auto-btn1{
